@@ -1,9 +1,10 @@
+/* I love CSS */
 *{
-    font-family: cursive;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .intro{   
-    background-color: aquamarine; 
+    background-color: orange; 
 }
 
 #winston{
@@ -14,10 +15,36 @@ code{
     background-color: #ff33cc;
 }
 
-a[href*="ucsd"]{
+a[href*="canvas"]{
     background-color: #aaa;
 }
 
 q:hover {
     color:	hsl(75, 100%, 60%)
+}
+
+h2, h3{
+    background-color: hsl(165, 100%, 60%, 0.3)
+}
+ul li{
+    background-color: rgb(255, 51, 51, 0.8);
+}
+details > summary{
+    border-style: solid;
+    border-color:cornflowerblue;
+}
+
+summary ~ pre{
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px
+}
+
+h1 + p{
+    text-align:center;
+    text-decoration: underline
+}
+
+h2.skills{
+    color:plum
 }
