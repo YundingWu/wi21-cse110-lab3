@@ -3,6 +3,11 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+#title{
+    font-size: 3em;
+    text-align: center;
+}
+
 .intro{   
     background-color: orange; 
 }
@@ -37,7 +42,7 @@ details > summary{
 summary ~ pre{
     border-style: double;
     border-width: 5px;
-    border-radius: 10px
+    border-radius: 1in
 }
 
 h1 + p{
@@ -45,6 +50,33 @@ h1 + p{
     text-decoration: underline
 }
 
-h2.skills{
+h2.lists{
     color:plum
+}
+
+
+#courses{
+    margin-top: 5px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5px
+}
+
+form{
+    margin:2em
+}
+
+#skills{
+    margin:auto
+}
+
+#cat1{
+    padding:5px
+}
+
+video{
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
