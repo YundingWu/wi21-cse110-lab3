@@ -13,7 +13,8 @@
 }
 
 #winston{
-    background-color: rgb(165,42,42)  
+    background-color: rgb(165,42,42);
+    
 }
 
 code{
@@ -23,6 +24,8 @@ code{
 a[href*="canvas"]{
     background-color: #aaa;
 }
+
+
 
 q:hover {
     color:	hsl(75, 100%, 60%)
@@ -42,7 +45,8 @@ details > summary{
 summary ~ pre{
     border-style: double;
     border-width: 5px;
-    border-radius: 1in
+    border-radius: 1in;
+    max-width: 50%;
 }
 
 h1 + p{
@@ -56,19 +60,33 @@ h2.lists{
 
 
 #courses{
+    display: grid;
     margin-top: 5px;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    grid-row-gap: 50px;
+    justify-items: start;
+    justify-content: end
 }
 
 form{
     margin:2em
 }
 
-#skills{
-    margin:auto
+.skills{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap
 }
+
+.skill{
+    background: violet;
+    width: 50%;
+    height: 50%
+}
+
 
 #cat1{
     padding:5px
@@ -79,4 +97,34 @@ video{
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
+}
+
+b{
+    display: block;
+}
+
+#schedule{
+    display: none;
+}
+table{
+    margin:auto;
+    min-width: 100%;
+}
+
+audio{
+    position: fixed
+}
+
+button{
+    position: absolute;
+}
+
+a:active{
+    background-color: blanchedalmond;
+}
+
+@media only screen and (max-width:500px){
+    .intro{
+        background-color: blueviolet;
+    }
 }
